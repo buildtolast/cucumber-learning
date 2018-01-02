@@ -1,0 +1,16 @@
+spring:
+  profiles: local
+
+test:
+  env: local
+
+---
+
+spring:
+  profiles: dev
+
+test:
+  env: dev
+
+---
+
